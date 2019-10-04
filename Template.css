@@ -1,0 +1,493 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("voorbeeld/header_bg.jpg");
+	background-size: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+p {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.menuknoppen {
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	top: 81vh;
+}
+
+
+#home {
+	position: absolute;
+	left: 25.9%;
+	font-size: 25px;
+}
+
+#features {
+	position: absolute;
+	left: 34.4%;
+	font-size: 25px;
+}
+
+#pages {
+	position: absolute;
+	left: 43.4%;
+	font-size: 27px;
+}
+
+#portfolio {
+	position: absolute;
+	left: 52.2%;
+	font-size: 27px;
+}
+
+#blog {
+	position: absolute;
+	left: 61.1%;
+	font-size: 26px;
+}
+
+#contact {
+	position: absolute;
+	left: 69%;
+	font-size: 26px;
+}
+
+#keuze {
+	position: absolute;
+	left: 77.3%;
+	font-size: 26px;
+}
+
+.socialmedia {
+	display: inline-block;
+	width: 100%;
+	height: 39px;
+	background-color: white;
+	top: 0;
+	color: white;
+}
+
+.socialbtn {
+	background-color: grey;
+	padding: 11px;
+	line-height:39px;
+}
+#rss {
+	position: relative;
+	left: 86%;
+	padding-right: 10px;
+}
+
+#twitter {
+	position: relative;
+	left: 86.05%;
+	padding-left: 10px;
+}
+
+#facebook {
+	position: relative;	
+	padding-left: 14px;
+	padding-right: 12px;
+	left: 86.1%;
+}
+
+#google {
+	left: 86.2%;
+	position: relative;
+	padding-right: 9px;
+}
+
+
+.menutext {
+	width: auto;
+	margin-top: 2.8%;
+	font-size: 15px;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+
+#hometxt {
+	position: absolute;
+	left: 25.3%;
+}
+
+#featurestxt {
+	position: absolute;
+	left: 32.5%;
+}
+
+#pagestxt {
+	position: absolute;
+	left: 42.4%;
+}
+
+#portfoliotxt {
+	position: absolute;
+	left: 50%;
+}
+
+#blogtxt {
+	position: absolute;
+	left: 60.4%;
+}
+
+#contacttxt {
+	position: absolute;
+	left: 67.3%;
+}
+
+#keuzetxt {
+	position: absolute;
+	left: 77.2%;
+}
+
+#logo {
+	position: fixed;
+	top: 44%;
+	left: 39.2%;
+	width: 22.6%;
+}
+
+i, a{
+	color: white;
+	text-decoration: none;
+}
+
+.playstation {
+	background-image: url("voorbeeld/playstationbg.gif");
+}
+
+.games {
+	width: 15%;
+	height: 45%;
+	position: absolute;
+	top: 15%;
+}
+
+#fifa20 {
+	left: 20%;
+	transition: 0.5s;
+}
+
+.games:hover{
+	box-shadow: 0px 0px 10px 10px #745cf9;
+	opacity: 0.8;
+}
+
+#blackops4 {
+	left: 42.5%;
+}
+
+#gta5 {
+	left: 65%;
+}
+
+h1 , h2{
+	color: white;
+}
+
+#psnaccounttitle {
+	margin-left: 5px;
+}
+
+#psnaccount{
+	width: 50%;
+	margin-left: 5px;
+}
+
+#snelmenutitle{
+	position: fixed;
+	left: 51%;
+	top: 7%;
+}
+
+#snelmenu {
+	position: fixed;
+	left: 51%;
+	top: 14%;
+}
+
+#zienieuwtitle {
+	margin-left: 5px;
+}
+
+#zienieuw {
+	width: 50%;
+	margin-left: 5px;
+}
+
+#dashboardtitle {
+	position: fixed;
+	left: 51%;
+	top: 40%;
+}
+
+#dashboard {
+	position: fixed;
+	left: 51%;
+	top: 48%;
+}
+
+
+#imgpsnaccount {
+	float: right;
+	width: 250px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#imgsnelmenu {
+	float: right;
+	width: 250px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#imgzienieuw {
+	float: right;
+	width: 250px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#imgdashboard {
+	float: right;
+	width: 250px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#pageshead {
+	position: fixed;
+	top: 7%;
+	left: 43%	;
+}
+
+#psvier {
+	position: fixed;
+	top: 15%;
+	left: 21%;
+}
+
+#ps4pro {
+	position: fixed;
+	top: 15%;
+	left: 48%;
+}
+
+#psgames {
+	position: fixed;
+	top: 15%;
+	left: 73%;
+}
+
+#psentertainment {
+	position: fixed;
+	top: 46%;
+	left: 20%;
+}
+
+#techspec {
+	position: fixed;
+	top: 46%;
+	left: 42%;
+}
+
+#accessiores {
+	position: fixed;
+	top: 46%;
+	left: 71%;
+}
+
+#site1 {
+	width: 300px;
+	position: fixed;
+	top: 20%;
+	left: 15%;
+}
+
+#site2 {
+	width: 300px;
+	position: fixed;
+	top: 20%;
+	left: 40%;
+}
+
+#site3 {
+	width: 300px;
+	position: fixed;
+	top: 20%;
+	left: 65%;
+}
+
+#site4 {
+	width: 300px;
+	position: fixed;
+	top: 51%;
+	left: 15%;
+}
+
+#site5 {
+	width: 300px;
+	position: fixed;
+	top: 51%;
+	left: 40%;
+}
+
+#site6 {
+	width: 300px;
+	position: fixed;
+	top: 51%;
+	left: 65%;
+}
+
+#site1:hover, #site2:hover, #site3:hover, #site4:hover, #site5:hover, #site6:hover{
+	transition: 0.5s;
+	opacity: 0.6;
+	box-shadow: 0px 0px 12px 12px white;
+
+}
+
+#contacthead {
+	position: fixed;
+	top: 8%;
+	left:41.7%;
+}
+
+#chatbtn {
+	position: fixed;
+	left: 38%;
+	top: 23%;
+	margin: 50px;
+	background-color: #0072ce;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#twitterbtn {
+	position: fixed;
+	left: 49%;
+	top: 23%;
+	margin: 50px;
+	background-color: #0072ce;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+}
+
+#forumbtn{
+	position: fixed;
+	left: 38%;
+	top: 45%;
+	margin: 50px;
+	background-color: #0072ce;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+
+}
+
+#youtubebtn {
+	position: fixed;
+	left: 49%;
+	top: 45%;
+	margin: 50px;
+	background-color: #0072ce;
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#chatbtn:hover, #twitterbtn:hover, #forumbtn:hover, #youtubebtn:hover {
+	opacity: 0.8;
+	border: 0.4px solid #ababab8f;
+	box-shadow: 0px 0px 10px 10px #0c7ff24f;
+}
+
+#contacth2 {
+	position: fixed;	
+	top: 23%;
+	left: 47%;
+}
+
+#selfhelph2 {
+	position: 	fixed;
+	top: 46%;
+	left :47.5%;
+}
+
+#blogbtn {
+	font-size: 40px;
+	background-color: grey;
+	position: fixed;
+	top: 40%;
+	left: 45%;
+	padding: 30px 50px 30px 50px;
+	border-radius: 50px 50px 50px 50px;
+	transition: 1s;
+}
+
+#blogh1{
+	position: fixed;
+	top:8%;
+	left:43%;
+}
+#blogbtn:hover {
+	transition: 1s;
+	background-color: #4c4c4c;
+	opacity: 0.8;
+	box-shadow: 0px 0px 12px 12px grey;
+
+}
+
+#psapp {
+	position: fixed;
+	top: 10%;
+	left: 25%;
+}
+
+#psapptxt {
+	position: fixed;
+	top:20%;
+	left:25%;
+	width: 50%;
+}
+
+#psont {
+	position: fixed;
+	top: 30%;
+	left: 25%;
+}
+
+#psonttxt {
+	position: fixed;
+	top: 40%;
+	left: 	25%;
+	width: 	50%;
+}
